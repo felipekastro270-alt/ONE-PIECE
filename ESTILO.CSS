@@ -1,0 +1,91 @@
+.ajustavel {
+    width: 100%;
+    height: auto;
+    display:block;
+    object-fit: contain;
+}
+.img-thumbnail {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    font-size: 12px;
+    border: 10px solid #080808;
+}
+.cartaz-imperador {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+.governo{
+    width: 100%;
+    max-width: 400px;
+    height:auto;
+    object-fit:contain;
+}
+
+
+.akuma-ajustavel {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+   margin: auto;
+}
+
+.imagem-luffy {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.menu-onepiece {
+    background-color: #7A2020;
+    margin-left: 0;
+    margin-right: 0;   
+}
+
+.menu-onepiece a {
+    color: #E9B94F;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.menu-onepiece a:hover {
+    color: #635943;
+}
+.texto-oda, .texto-roger, .texto-luffy, .texto-akuma, .texto-haki,.governo, .texto-yonkous{
+    padding: 20px;
+    color: #ffffff;
+}
+.titulo-roger, .titulo-luffy, .titulo-akuma, .titulo-haki, .titulo-imperadores{
+    color: #E9B94F;
+}
+.texto-luffy {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.pagina-onepiece, .pagina-tripulação, .pagina-universo{
+    background-color: #000000;
+}
+
+
+@media (max-width: 768px) {
+    .ajustavel {
+        height: auto;
+    }
+    .texto-roger,.texto-haki, .texto-akuma{
+        font-size: 12px;
+        padding: 5px;
+        color: #ffffff;
+    }
+    .cartaz-imperador{
+        max-width: 250px;
+    }
+}
